@@ -13,13 +13,31 @@ const activityStates = {
  * @return {Node} generated markup for a card
  */
 const generateCardNode = (data) => {
-  const { name, href, image } = data
+  const { name, href, image, activity } = data
   const templateId = 'profile-group-results-item-template'
   const resultCardTemplate = document.getElementById(templateId)
   const clone = document.importNode(resultCardTemplate.content, true)
   const titleNode = clone.querySelector('p.page-paragraph')
   const referenceNode = clone.querySelector('a.profile-group-results-card')
   const groupImageNode = clone.querySelector('a.profile-group-results-card img')
+  const groupResultsCard = clone.querySelector('.profile-group-results-card')
+
+  let activityClassName = 'profile-group-results-card-'
+  switch (activity) {
+    case 'active':
+      activityClassName += 'active'
+      break
+    case 'moderate':
+      activityClassName += 'moderate'
+      break
+    case 'low':
+      activityClassName += 'low'
+      break
+    case 'inactive':
+      activityClassName += 'inactive'
+      break
+  }
+  groupResultsCard.classList.add(activityClassName)
 
   titleNode.innerHTML = `${name}`
   referenceNode.href = href

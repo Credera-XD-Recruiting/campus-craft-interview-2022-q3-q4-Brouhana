@@ -36,7 +36,31 @@
   background-color: var(--grayscale_1);
   text-decoration: none;
   color: var(--midnight_black);
+}
 
+.profile-group-results-card::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0.15;
+  content: '';
+}
+
+.profile-group-results-card-active::before {
+  background-color: var(--secondary);
+}
+
+.profile-group-results-card-moderate::before {
+  background-color: var(--primary);
+}
+
+.profile-group-results-card-low::before {
+  background-color: var(--warning);
+}
+
+.profile-group-results-card-inactive::before {
+  background-color: var(--grayscale_2);
 }
 
 .profile-group-content {
