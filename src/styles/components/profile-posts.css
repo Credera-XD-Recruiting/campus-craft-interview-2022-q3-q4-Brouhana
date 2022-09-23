@@ -41,6 +41,21 @@
   margin-bottom: 8px;
 }
 
+.post-meta-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.post-meta-info > :first-child {
+  padding-right: 7px;
+}
+
+.post-meta-info > :last-child {
+  padding-right: 7px;
+}
+
 /* SKELETON LOADING */
 .post-content.skeleton-block {
   height: 125px;

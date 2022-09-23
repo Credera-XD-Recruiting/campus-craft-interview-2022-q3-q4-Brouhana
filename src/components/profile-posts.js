@@ -14,6 +14,9 @@ const generateCardNode = (data) => {
     jobTitle,
     companyName,
     post,
+    publishDate,
+    state,
+    city,
   } = data
   const templateId = 'profile-post-item-template'
   const resultCardTemplate = document.getElementById(templateId)
@@ -21,11 +24,29 @@ const generateCardNode = (data) => {
   const authorName = clone.querySelector('.post-author-info .page-paragraph')
   const jobDesc = clone.querySelector('.post-author-info .page-micro')
   const postNode = clone.querySelector('.post-content')
-  const avatarNode = clone.querySelector('.post-author-avatar')
+  const avatarNode = clone.querySelector('.post-meta-info .post-author-avatar')
+  const locationNode = clone.querySelector(
+    '.post-meta-info .post-meta-location',
+  )
+  const publishDateNode = clone.querySelector('.post-meta-publishdate')
 
   authorName.innerHTML = `${authorFirstName} ${authorLastName}`
   jobDesc.innerHTML = `${jobTitle} @ ${companyName}`
   postNode.innerHTML = post
+  publishDateNode.innerHTML = new Date(publishDate).toLocaleDateString(
+    'en-US',
+    {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+    },
+  )
+  // Support to exclude state from content for instances where a city is unlisted
+  if (!city && state) {
+    locationNode.innerHTML = state
+  } else {
+    locationNode.innerHTML = `${city}, ${state}`
+  }
 
   if (authorAvatarSrc) {
     const avatarImg = document.createElement('img')
