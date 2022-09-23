@@ -36,6 +36,20 @@
   background-color: var(--grayscale_1);
   text-decoration: none;
   color: var(--midnight_black);
+  transition: all 0.2s ease;
+}
+
+.profile-group-results-card:active {
+  transform: scale(0.96);
+}
+
+.profile-group-results-card:hover {
+  background-color: var(--grayscale_0);
+  box-shadow: 0 1px 4px hsla(0, 0%, 0%, 0.16);
+}
+
+.profile-group-results-card:hover::before {
+  opacity: 0;
 }
 
 .profile-group-results-card::before {
