@@ -48,12 +48,32 @@ export const generateFriendsListFromTemplate = (resultsData) => {
     '#profile-friends .profile-friends-list',
   )
 
+  const sortFriendsAlpha = (friends) => {
+    friends.sort((friendA, friendB) => {
+      let afriendA = friendA.name.toLowerCase().split(' ').pop()
+      let afriendB = friendB.name.toLowerCase().split(' ').pop()
+      return afriendA.localeCompare(afriendB)
+    })
+    return friends
+  }
+
   if (resultsData.friends && resultsData.friends.length > 0) {
     removeChildNodes(friendsListSection)
 
-    for (let i = 0; i < resultsData.friends.length; i++) {
-      const friendsNode = generateListItemNode(resultsData.friends[i])
-      friendsListSection.appendChild(friendsNode)
+    const allFriends = resultsData.friends
+    const topFriends = sortFriendsAlpha(
+      allFriends.filter((friend) => friend.topFriend),
+    )
+    const normalFriends = sortFriendsAlpha(
+      allFriends.filter((friend) => !friend.topFriend),
+    )
+
+    for (let friend of topFriends) {
+      friendsListSection.appendChild(generateListItemNode(friend))
+    }
+
+    for (let friend of normalFriends) {
+      friendsListSection.appendChild(generateListItemNode(friend))
     }
   }
 }
