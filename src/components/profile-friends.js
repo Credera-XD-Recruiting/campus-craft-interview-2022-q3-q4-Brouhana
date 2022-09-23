@@ -14,11 +14,18 @@ const generateListItemNode = (data) => {
   const nameNode = clone.querySelector('p.page-paragraph')
   const titleNode = clone.querySelector('p.page-micro')
   const avatarNode = clone.querySelector('.profile-list-item-avatar')
+  const topFriendNode = clone.querySelector('.top-friend-flag')
 
   nameNode.innerHTML = `${name}`
   titleNode.innerHTML = `${jobTitle} @ ${companyName}`
   avatarNode.src = avatarSrc
   avatarNode.setAttribute('aria-label', `${name}`)
+
+  if (topFriend) {
+    topFriendNode.innerHTML = 'Top Friend'
+  } else {
+    topFriendNode.remove()
+  }
 
   if (avatarSrc) {
     const avatarImg = document.createElement('img')
