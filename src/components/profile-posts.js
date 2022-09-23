@@ -24,7 +24,7 @@ const generateCardNode = (data) => {
   const authorName = clone.querySelector('.post-author-info .page-paragraph')
   const jobDesc = clone.querySelector('.post-author-info .page-micro')
   const postNode = clone.querySelector('.post-content')
-  const avatarNode = clone.querySelector('.post-meta-info .post-author-avatar')
+  const avatarNode = clone.querySelector('.post-author-avatar')
   const locationNode = clone.querySelector(
     '.post-meta-info .post-meta-location',
   )
