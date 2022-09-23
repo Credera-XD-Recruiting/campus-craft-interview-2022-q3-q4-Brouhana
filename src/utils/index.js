@@ -4,6 +4,6 @@
 
 export const removeChildNodes = (node) => {
   while (node.firstChild) {
-    node.removeChild(node.lastChild);
+    node.removeChild(node.lastChild)
   }
-};
+}
