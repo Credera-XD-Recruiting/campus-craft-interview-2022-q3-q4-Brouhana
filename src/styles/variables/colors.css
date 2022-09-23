@@ -9,4 +9,6 @@
   --grayscale_2: #dbdbdb;
   --midnightBlack: #3a3a3a;
   --deepSmoke: #525252;
+
+  --shadow: 0 1px 4px hsla(0, 0%, 0%, 0.16);
 }
