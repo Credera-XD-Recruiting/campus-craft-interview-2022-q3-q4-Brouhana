@@ -69,11 +69,13 @@ export const generateFriendsListFromTemplate = (resultsData) => {
     )
 
     for (let friend of topFriends) {
-      friendsListSection.appendChild(generateListItemNode(friend))
+      const topFriendsNode = generateListItemNode(friend)
+      friendsListSection.appendChild(topFriendsNode)
     }
 
     for (let friend of normalFriends) {
-      friendsListSection.appendChild(generateListItemNode(friend))
+      const normalFriendsNode = generateListItemNode(friend)
+      friendsListSection.appendChild(normalFriendsNode)
     }
   }
 }
