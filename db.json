@@ -3,11 +3,13 @@
     "id": "s9df8ske-23n23490s8-12nkk123o",
     "firstName": "Ann",
     "lastName": "Smith",
+    "avatarSrc": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29tYW4lMjBkZXNpZ25lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
     "jobTitle": "Content Artist",
     "companyName": "ABC Advertising Co.",
     "pinnedPost": {
       "authorFirstName": "Jamie",
       "authorLastName": "Cowhan",
+      "authorAvatarSrc": "https://images.unsplash.com/photo-1609241642232-cd1edbc10b7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHdvbWFuJTIwZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
       "jobTitle": "Content Artist",
       "companyName": "ABC Advertising Co.",
       "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
@@ -19,6 +21,7 @@
       {
         "authorFirstName": "Jamie",
         "authorLastName": "Cowhan",
+        "authorAvatarSrc": "https://images.unsplash.com/photo-1609241642232-cd1edbc10b7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHdvbWFuJTIwZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
         "jobTitle": "Content Artist",
         "companyName": "ABC Advertising Co.",
         "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
@@ -29,6 +32,7 @@
       {
         "authorFirstName": "Stuart",
         "authorLastName": "Raymond",
+        "avatarSrc": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
         "jobTitle": "Product Designer",
         "companyName": "Facebook",
         "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
@@ -112,85 +116,101 @@
           "name": "Stuart Raymond",
           "jobTitle": "Product Designer",
           "companyName": "Facebook",
-          "topFriend": true
+          "topFriend": true,
+          "avatarSrc": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
         },
         {
           "name": "Jamie Cowhan",
           "jobTitle": "Senior Designer",
-          "companyName": "Facebook"
+          "companyName": "Facebook",
+          "avatarSrc": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Cain Kim",
           "jobTitle": "Product Designer",
-          "companyName": "LinkedIn"
+          "companyName": "LinkedIn",
+          "avatarSrc": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Tiffany Squires",
           "jobTitle": "UX Designer",
-          "companyName": "Chip Consulting"
+          "companyName": "Chip Consulting",
+          "avatarSrc": "https://images.unsplash.com/photo-1563306406-e66174fa3787?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Paige Diaz",
           "jobTitle": "Art Director",
           "companyName": "Agency4",
-          "topFriend": true
+          "topFriend": true,
+          "avatarSrc": "https://images.unsplash.com/photo-1618085222100-93f0eecad0aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGJsYWNrJTIwd29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Aleah Emmonds",
           "jobTitle": "Product Designer",
-          "companyName": "Liberty"
+          "companyName": "Liberty",
+          "avatarSrc": "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Huda Dunkley",
           "jobTitle": "Architect",
-          "companyName": "Epic"
+          "companyName": "Epic",
+          "avatarSrc": "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Aden Gray",
           "jobTitle": "Game Designer",
-          "companyName": "Voltron"
+          "companyName": "Voltron",
+          "avatarSrc": "https://images.unsplash.com/flagged/photo-1573603867003-89f5fd7a7576?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Joey Moreno",
           "jobTitle": "Product Designer",
           "companyName": "Facebook",
-          "topFriend": true
+          "topFriend": true,
+          "avatarSrc": "https://images.unsplash.com/photo-1567515004624-219c11d31f2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Darell Gentry",
           "jobTitle": "Senior Designer",
-          "companyName": "Facebook"
+          "companyName": "Facebook",
+          "avatarSrc": "https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Kellie Church",
           "jobTitle": "Product Designer",
-          "companyName": "LinkedIn"
+          "companyName": "LinkedIn",
+          "avatarSrc": "https://images.unsplash.com/photo-1550682290-d071c75759f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2R1Y3QlMjBkZXNpZ25lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Amparo Crosby",
           "jobTitle": "UX Designer",
-          "companyName": "Chip Consulting"
+          "companyName": "Chip Consulting",
+          "avatarSrc": "https://images.unsplash.com/photo-1613980790147-f4f449df0dd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdCUyMGRlc2lnbmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Terrance Robles",
           "jobTitle": "Art Director",
           "companyName": "Agency4",
-          "topFriend": true
+          "topFriend": true,
+          "avatarSrc": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hbiUyMGluJTIwZ2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Dudley Mcgee",
           "jobTitle": "Product Designer",
-          "companyName": "Liberty"
+          "companyName": "Liberty",
+          "avatarSrc": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Jack Orr",
           "jobTitle": "Architect",
-          "companyName": "Epic"
+          "companyName": "Epic",
+          "avatarSrc": "https://images.unsplash.com/photo-1600697394936-59934aa5951f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1hbiUyMGluJTIwZ2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         },
         {
           "name": "Heather Li",
           "jobTitle": "Game Designer",
-          "companyName": "Voltron"
+          "companyName": "Voltron",
+          "avatarSrc": "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW4lMjBkZXNpZ25lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
         }
       ]
     }

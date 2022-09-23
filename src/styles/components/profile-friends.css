@@ -49,6 +49,7 @@
 .profile-list-item-avatar img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .profile-list-item-info {
