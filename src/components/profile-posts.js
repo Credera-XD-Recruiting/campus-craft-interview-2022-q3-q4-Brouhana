@@ -28,7 +28,9 @@ const generateCardNode = (data) => {
   const locationNode = clone.querySelector(
     '.post-meta-info .post-meta-location',
   )
-  const publishDateNode = clone.querySelector('.post-meta-publishdate')
+  const publishDateNode = clone.querySelector(
+    '.post-meta-info .post-meta-publishdate',
+  )
 
   authorName.innerHTML = `${authorFirstName} ${authorLastName}`
   jobDesc.innerHTML = `${jobTitle} @ ${companyName}`
