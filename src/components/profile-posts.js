@@ -55,6 +55,15 @@ const generateCardNode = (data) => {
     avatarImg.src = authorAvatarSrc
     avatarImg.setAttribute('aria-label', `${authorFirstName} ${authorLastName}`)
     avatarNode.appendChild(avatarImg)
+  } else {
+    const firstName = authorFirstName.split(' ').shift().charAt(0)
+    const lastName = authorLastName.split(' ').pop().charAt(0)
+    const initials = firstName.toUpperCase() + lastName.toUpperCase()
+
+    const avatarInitials = document.createElement('div')
+    avatarInitials.className = 'post-author-avatar-initials'
+    avatarInitials.innerHTML = initials
+    avatarNode.appendChild(avatarInitials)
   }
 
   return clone

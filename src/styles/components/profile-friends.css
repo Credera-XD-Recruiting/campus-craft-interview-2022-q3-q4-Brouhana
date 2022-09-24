@@ -52,6 +52,15 @@
   transition: 0.3s ease;
 }
 
+.profile-list-item-avatar .profile-avatar-initials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 24px;
+  color: var(--deepSmoke);
+}
+
 .profile-list-item-avatar img {
   height: 100%;
   width: 100%;
@@ -60,7 +69,7 @@
 
 .profile-list-item:hover .profile-list-item-avatar {
   transition: 0.3s ease;
-  transform: rotate(-10deg);
+  border-radius: 30px;
 }
 
 .profile-list-item-info {

@@ -27,6 +27,15 @@
   margin-bottom: 16px;
 }
 
+.post-author-avatar .post-author-avatar-initials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  color: var(--deepSmoke);
+}
+
 .post-author-avatar img {
   height: 100%;
   width: 100%;

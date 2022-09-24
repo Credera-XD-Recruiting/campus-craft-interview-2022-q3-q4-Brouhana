@@ -32,6 +32,15 @@ const generateListItemNode = (data) => {
     avatarImg.src = avatarSrc
     avatarImg.setAttribute('aria-label', `${name}`)
     avatarNode.appendChild(avatarImg)
+  } else {
+    const firstName = name.split(' ').shift().charAt(0)
+    const lastName = name.split(' ').pop().charAt(0)
+    const initials = firstName.toUpperCase() + lastName.toUpperCase()
+
+    const avatarInitials = document.createElement('div')
+    avatarInitials.className = 'profile-avatar-initials'
+    avatarInitials.innerHTML = initials
+    avatarNode.appendChild(avatarInitials)
   }
 
   return clone

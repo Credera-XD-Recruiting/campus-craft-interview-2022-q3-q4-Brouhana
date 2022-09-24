@@ -9,7 +9,7 @@
     "pinnedPost": {
       "authorFirstName": "Jamie",
       "authorLastName": "Cowhan",
-      "authorAvatarSrc": "https://images.unsplash.com/photo-1609241642232-cd1edbc10b7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHdvbWFuJTIwZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
+      "authorAvatarSrc": "",
       "jobTitle": "Content Artist",
       "companyName": "ABC Advertising Co.",
       "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
@@ -122,8 +122,7 @@
         {
           "name": "Jamie Cowhan",
           "jobTitle": "Senior Designer",
-          "companyName": "Facebook",
-          "avatarSrc": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+          "companyName": "Facebook"
         },
         {
           "name": "Cain Kim",
@@ -191,14 +190,12 @@
           "name": "Terrance Robles",
           "jobTitle": "Art Director",
           "companyName": "Agency4",
-          "topFriend": true,
-          "avatarSrc": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hbiUyMGluJTIwZ2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+          "topFriend": true
         },
         {
           "name": "Dudley Mcgee",
           "jobTitle": "Product Designer",
-          "companyName": "Liberty",
-          "avatarSrc": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+          "companyName": "Liberty"
         },
         {
           "name": "Jack Orr",
