@@ -13,7 +13,7 @@ const activityStates = {
  * @return {Node} generated markup for a card
  */
 const generateCardNode = (data) => {
-  const { name, href, image, activity } = data
+  const { name, href, image, activity, favorite } = data
   const templateId = 'profile-group-results-item-template'
   const resultCardTemplate = document.getElementById(templateId)
   const clone = document.importNode(resultCardTemplate.content, true)
@@ -21,6 +21,9 @@ const generateCardNode = (data) => {
   const referenceNode = clone.querySelector('a.profile-group-results-card')
   const groupImageNode = clone.querySelector('a.profile-group-results-card img')
   const groupResultsCard = clone.querySelector('.profile-group-results-card')
+  const favoriteIconNode = clone.querySelector('.profile-group-favorite')
+
+  if (!favorite) favoriteIconNode.remove()
 
   let activityClassName = 'profile-group-results-card-'
   switch (activity) {

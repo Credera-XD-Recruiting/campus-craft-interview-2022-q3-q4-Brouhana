@@ -39,6 +39,19 @@
   transition: all 0.2s ease;
 }
 
+.profile-group-favorite {
+  background: var(--accent);
+  display: inherit;
+  border-radius: 100px;
+  padding: 5px;
+  fill: var(--grayscale_0);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  margin: 6px;
+}
+
 .profile-group-results-card:active {
   transform: scale(0.96);
 }
