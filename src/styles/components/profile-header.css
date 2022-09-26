@@ -25,10 +25,10 @@
 
 .profile-info {
   flex: 1;
-  padding-left: 100px;
+  padding-left: 115px;
   position: relative;
   max-width: calc(100% - 100px);
-  transform: translateX(128px);
+  transform: translateX(115px);
   background-color: transparent;
 }
 
