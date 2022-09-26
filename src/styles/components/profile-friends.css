@@ -19,14 +19,25 @@
 }
 
 .profile-list-item {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: var(--grayscale_1);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.profile-list-item .profile-list-card {
   display: flex;
   width: 100%;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
-  background-color: var(--grayscale_1);
+  text-decoration: none;
+  color: inherit;
   padding: 16px 24px;
-  border-radius: 10px;
+}
+
+.profile-list-item:active {
+  transform: scale(0.96);
 }
 
 .profile-list-item:hover {
@@ -87,4 +98,15 @@
 
 #profile-friends .skeleton-block {
   margin-bottom: 4px;
+}
+
+#profile-friends .skeleton-card {
+  width: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 16px 24px;
 }
