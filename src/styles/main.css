@@ -57,15 +57,24 @@ h3 {
 .profile-navbar {
   height: 60px;
   background-color: var(--grayscale_0);
-  display: none;
+  position: relative;
 }
 
 .profile-navbar-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   height: 100%;
+}
+
+.profile-navbar-icon {
+  fill: var(--midnightBlack);
+}
+
+.profile-navbar a:hover svg path {
+  fill: var(--accent);
+  transition: 0.2s;
 }
 
 .profile-background-banner {
