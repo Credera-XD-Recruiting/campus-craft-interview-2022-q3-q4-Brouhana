@@ -12,6 +12,12 @@
   justify-content: center;
 }
 
+.profile-friends-list-container {
+  height: 860px;
+  overflow-y: scroll;
+  padding: 3px;
+}
+
 .profile-list-item {
   display: flex;
   width: 100%;

@@ -35,6 +35,8 @@ const generateCardNode = (data) => {
     '.post-body-expand-collapse-button',
   )
 
+  // Collapse/Expand
+
   const MAX_POST_CHARACTERS = 190
   const postCollapsedContent = `${post.slice(0, MAX_POST_CHARACTERS)}&#8230`
   const postContent =
