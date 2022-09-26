@@ -51,6 +51,20 @@
   margin-bottom: 8px;
 }
 
+.post-body-expand-collapse-button {
+  margin-top: 9px;
+  background-color: initial;
+  color: var(--accent);
+  font-size: 16px;
+  transition: 0.1s ease;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+.post-body-expand-collapse-button:hover {
+  opacity: 0.75;
+}
+
 .post-meta-info {
   display: flex;
   flex-direction: row;
