@@ -35,23 +35,24 @@ const generateCardNode = (data) => {
     '.post-body-expand-collapse-button',
   )
 
-  // Collapse/Expand
+  const renderPost = () => {
+    const MAX_POST_CHARACTERS = 190
+    const postCollapsedContent = `${post.slice(0, MAX_POST_CHARACTERS)}&#8230`
+    const postContent =
+      post.length > MAX_POST_CHARACTERS ? postCollapsedContent : post
+    postNode.innerHTML = postContent
 
-  const MAX_POST_CHARACTERS = 190
-  const postCollapsedContent = `${post.slice(0, MAX_POST_CHARACTERS)}&#8230`
-  const postContent =
-    post.length > MAX_POST_CHARACTERS ? postCollapsedContent : post
-  postNode.innerHTML = postContent
-  let isPostCollapsed = false
+    let isPostCollapsed = false
+    expandCollapsePostButtonNode.addEventListener('click', () => {
+      postNode.innerHTML = isPostCollapsed ? postCollapsedContent : post
+      expandCollapsePostButtonNode.innerHTML = isPostCollapsed
+        ? 'Continue reading'
+        : 'Show less'
+      isPostCollapsed = !isPostCollapsed
+    })
+  }
 
-  expandCollapsePostButtonNode.addEventListener('click', () => {
-    postNode.innerHTML = isPostCollapsed ? postCollapsedContent : post
-    expandCollapsePostButtonNode.innerHTML = isPostCollapsed
-      ? 'Continue reading'
-      : 'Show less'
-    isPostCollapsed = !isPostCollapsed
-  })
-
+  renderPost()
   authorName.innerHTML = `${authorFirstName} ${authorLastName}`
   jobDesc.innerHTML = `${jobTitle} @ ${companyName}`
   publishDateNode.innerHTML = new Date(publishDate).toLocaleDateString(
